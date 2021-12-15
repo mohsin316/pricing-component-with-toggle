@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-using-js-classes-transitions-and-more-ixDngHCRy)
-- [Live Site URL](https://mohsin316.github.io/Tip-Calculator/)
+- [Solution URL](https://www.frontendmentor.io/solutions/pricing-component-with-html-css-and-js-with-smooth-animation-transitions-N2SL65fGD)
+- [Live Site URL](https://mohsin316.github.io/pricing-component-with-toggle/)
 
 ## My process
 
