@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <title>Pricing Component</title>
+</head>
+<body>
+
+  <header>
+
+    <h1>Our Pricing</h1>
+
+    <fieldset aria-label="theme switcher" role="radiogroup">
+      <div class="toggle">
+        <label for="Annually">Annually</label>
+        <span class="toggle-wrapper">
+          <input type="radio" name="theme" id="Monthly" checked>
+          <input type="radio" name="theme" id="Annually">
+          <span aria-hidden="true" class="toggle-background"></span>
+          <span aria-hidden="true" class="toggle-switcher"></span>
+        </span>
+        <label for="Monthly">Monthly</label>
+      </div>
+    </fieldset>
+
+  </header>
+
+  <main>
+
+    <div class="card-container">
+      <h2>Basic</h2>
+      <strong><span>&dollar;</span>19.99</strong>
+      <span class="info">500 GB Storage</span>
+      <span class="info">2 Users Allowed</span>
+      <span class="info">Send up to 3 GB</span>
+      <button type="button">Learn More</button>
+    </div>
+
+    <div class="card-container">
+      <h2>Professional</h2>
+      <strong><span>&dollar;</span>24.99</strong>
+      <span class="info">1 TB Storage</span>
+      <span class="info">5 Users Allowed</span>
+      <span class="info">Send up to 10 GB</span>
+      <button type="button">Learn More</button>
+    </div>
+
+    <div class="card-container">
+      <h2>Master</h2>
+      <strong><span>&dollar;</span>39.99</strong>
+      <span class="info">2 TB Storage</span>
+      <span class="info">10 Users Allowed</span>
+      <span class="info">Send up to 20 GB</span>
+      <button type="button">Learn More</button>
+    </div>
+  </main>
+
+</body>
+<script src="script.js"></script>
+</html>
